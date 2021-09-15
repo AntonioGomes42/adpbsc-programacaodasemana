@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232B52FE;
+    box-sizing: border-box;
+}
+
+#header{
+    margin: 15px auto 15px auto;
+    border: 3px solid #ecf0f1;
+    width: 90vw;
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly;
+    padding: 5px 0px 6px 0px;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 110px;
+}
+
+.textoLogo{
+    color: #ecf0f1;
+    font-family: 'Open Sans','Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.cidade{
+    text-align: center;
+}
+
+#painelAviso{
+    display: block;
+    margin: 15px auto 15px auto;
+    font-size: 28px;
+    font-family: 'Open Sans','Times New Roman', Times, serif;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+#mainContainer{
+    margin: 15px auto 15px auto;
+    padding: 0;
+    border: 3px solid #ecf0f1;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+#programacaoSemana{
+    list-style-type: none;
+
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+.programacaoDia{
+    display: flex;
+    padding: 0px 20px 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 12px auto 7px auto;
+    border: 3px solid #ecf0f1;
+    border-radius: 10px;
+    background-color: #bdc3c7;
+    width: 95%;
+    height: 120px;
+}
+
+.textoProgramacao{
+    text-align: start;
+    font-family: 'Open Sans','Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.diaSemana{
+    color: #2c3e50;
+    font-size: 25px;
+}
+
+.tipoCulto{
+    font-size: 17px;
+}
+
+.iconeCalendario{
+    width: 100px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ecf0f1;
+    border: black solid 2px;
+    border-radius: 6px;
+}
